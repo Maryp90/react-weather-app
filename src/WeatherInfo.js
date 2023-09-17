@@ -1,17 +1,20 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
     return (
         <div className="WeatherInfo">
-            <div className="row space-arround-center">
-                <div className="row start-center props.dconditions-container">
-                    <div className="props.dleft-side">
-                        <img src="https://ssl.gstatic.com/onebox/props.d64/partly_cloudy.png" alt="Mostly Cloudy" className="props.dimage"></img>
+            <div className="custom-row space-arround-center">
+                <div className="custom-row start-center weather-conditions-container">
+                    <div className="custom-row center-center weather-left-side">
+                        <div className="weather-image">
+                            <WeatherIcon code={props.data.icon} />
+                        </div>
                         <span className="temperature">{Math.round(props.data.temperature)}</span>
                         <span className="degrees">°C|°F</span>
                     </div>
-                    <div className="props.dconditions">
+                    <div className="weather-conditions">
                         <ul>
                             <li>Humidity: {props.data.humidity}%</li>
                             <li>Wind: {props.data.wind} km/h</li>

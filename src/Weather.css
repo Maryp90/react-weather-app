@@ -17,7 +17,7 @@ form {
     width: 55%;
 }
 
-.weather-image {
+.weather .weather-image, canvas {
     display: inline-block;
     height: 65px;
     margin-top: unset;
