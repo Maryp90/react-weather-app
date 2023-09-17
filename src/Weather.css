@@ -1,0 +1,164 @@
+.Weather {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #dadde1;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.Weather .weather-conditions-container {
+    width: 66%;
+}
+
+.Weather .weather-left-side {
+    width: 55%;
+}
+
+.weather-image {
+    display: inline-block;
+    height: 65px;
+    margin-top: unset;
+    vertical-align: top;
+    width: 60px;
+    padding-right: 6px;
+    padding-top: 6px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: 400;
+    color: #202124;
+    display: inline;
+}
+
+.degrees {
+    color: #202124;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    padding-left: 6px;
+    vertical-align: top;
+}
+
+.Weather .weather-conditions {
+    color: #70757a;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 0px;
+    padding-top: 6px;
+    width: 45%;
+}
+
+.Weather h1 {
+    color: #202124;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+}
+.Weather li {
+    color: #70757a;
+    line-height: 20px;
+    list-style: none;
+}
+
+.Weather .today {
+    color: #70757a;
+    font-size: 16px;
+    line-height: 20px;
+    width: 33%;
+    text-align: right;
+}
+
+
+.flex {
+  flex: 1;
+}
+
+.custom-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.start-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.start-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.start-end {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.center-start {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-end {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.end-center {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.space-around-start {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.space-around-center {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.space-around-end {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.space-between-center {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-between-start {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.space-between-end {
+  justify-content: space-between;
+  align-items: flex-end;
+}
