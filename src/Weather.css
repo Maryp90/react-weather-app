@@ -15,6 +15,7 @@ form {
 
 .Weather .weather-left-side {
     width: 55%;
+    vertical-align: top;
 }
 
 .weather .weather-image, canvas {
@@ -34,14 +35,23 @@ form {
     display: inline;
 }
 
-.degrees {
-    color: #202124;
+.units {
     display: inline-block;
     font-size: 16px;
-    line-height: 24px;
-    margin-top: 12px;
-    padding-left: 6px;
+    line-height: 64px;
+    padding-left: 3px;
     vertical-align: top;
+    text-decoration: none !important;
+    color: #70757a !important;
+}
+
+.units:active {
+  color: #202124 !important;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 .Weather .weather-conditions {
