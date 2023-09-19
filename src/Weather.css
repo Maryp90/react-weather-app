@@ -20,12 +20,10 @@ form {
 
 .weather .weather-image, canvas {
     display: inline-block;
-    height: 65px;
     margin-top: unset;
     vertical-align: top;
-    width: 60px;
-    padding-right: 6px;
     padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .temperature {
