@@ -8,3 +8,8 @@
     text-align: center;
     margin: 10px 0;
 }
+
+.footerLink {
+    color: #0DCAF0;
+    text-decoration: none;
+}
