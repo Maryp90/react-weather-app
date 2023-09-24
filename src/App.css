@@ -1,3 +1,6 @@
+.body {
+    background: #f9f7fe;
+}
 .App {
     max-width: 500px;
     margin: 30px auto;
@@ -10,6 +13,6 @@
 }
 
 .footerLink {
-    color: #0DCAF0;
+    color: #885df1;
     text-decoration: none;
 }

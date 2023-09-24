@@ -1,6 +1,22 @@
 .WeatherForecast {
     text-align: center;
-    font-weight: bold;
+    padding-top: 40px;
+}
+
+.WeatherForecast-day {
+    padding-bottom: 6px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.WeatherForecast-temperatures {
+    color: #f65282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-top: 6px;
 }
 
 .WeatherForecast-temperatures-min {
