@@ -24,6 +24,7 @@
     vertical-align: top;
     padding-top: 6px;
     padding-bottom: 6px;
+    padding-right: 6px;
 }
 
 .WeatherTemperature .temperature {
@@ -168,6 +169,10 @@
   align-items: flex-end;
 }
 
+.WeatherForecast {
+  padding-top: 20px;
+}
+
 .WeatherForecast .WeatherForecast-day {
-  color:#202124;
+  color:#70757a;
 }
